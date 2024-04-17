@@ -157,6 +157,7 @@ header {
 .description {
    font-family: "Khula";
    font-size: 24px;
+   padding: 0 25px 0 25px;
 }
 .boxImage {
   height: auto;
@@ -288,6 +289,7 @@ footer {
       align-items: center;
       justify-content: space-evenly;
       font-weight: 600;
+      flex-wrap: wrap;
     }
     .aboutAndPort {
        display: flex;
@@ -296,8 +298,14 @@ footer {
     .aboutDescription {
       display: flex;
       display: column;
-      
     }
+    .aboutAndPort {
+      flex-wrap:wrap;
+    }
+    .caseStudiesContainer {
+      flex-wrap: wrap;
+    }
+    
 }
 
 
