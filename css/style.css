@@ -219,6 +219,7 @@ header {
    justify-content: center;
    font: "Khula";
    text-align: center;
+   cursor: pointer;
 }
 .connectSection {
    display: flex;
@@ -236,6 +237,7 @@ header {
    display: flex;
    flex-direction: row;
    justify-content: space-around;
+   cursor: pointer;
 }
 #socialButtonGit {
    height: 24px;
@@ -305,7 +307,7 @@ footer {
     .caseStudiesContainer {
       flex-wrap: wrap;
     }
-    
+
 }
 
 
