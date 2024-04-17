@@ -3,23 +3,17 @@
 body {
    display: flex;
    flex-direction: column;
-   font-family: "Josefin Slab", "Khula";
-   img.bg {
-      min-height: 100%;
-      min-width: 1024px;
+   font-family: "Josefin Slab", "Khula"}
+.bg {
+      /*min-height: 100%;
+      min-width: 100%;
       width: 100%;
-      height: auto;
+      height: auto;*/
       position: fixed;
+      background-size: cover;
       top: 0;
       left: 0;
   }
-  @media screen and (max-width: 1024px) {
-      img.bg {
-          left: 50%;
-          margin-left: -512px;
-      }
-  }
-}
 
 /* Homepage header section */
 
@@ -84,13 +78,14 @@ header {
 
 /* About Me */
 
-.headerTwo {
+.headerOne {
    color: #731702;
    font-family: "Khula";
    font-size:48px;
    height: 58px;
+   padding-top: 25px;
    padding-left: 106.5px;
-   padding-bottom: 114px;
+   padding-bottom: 106px;
 }
 .aboutAndPort {
    display: flex;
@@ -127,6 +122,15 @@ header {
 }
 
  /* Case Studies*/
+ .headerTwo {
+   color: #731702;
+   font-family: "Khula";
+   font-size:48px;
+   height: 58px;
+   padding-top: 105px;
+   padding-left: 106.5px;
+   padding-bottom: 34px;
+}
 .sectionTitle {
    font-family: "Khula";
    font-size: 40px;
@@ -170,6 +174,7 @@ header {
   width: 433px;
   justify-content: space-between;
   opacity: 0;
+  border-radius: 10px;
 }
 .buttonContainer:hover {
   opacity: 1;
@@ -193,6 +198,15 @@ header {
 }
 
 /*Lets Connect*/
+.headerThree {
+   color: #731702;
+   font-family: "Khula";
+   font-size:48px;
+   height: 58px;
+   padding-top: 10px;
+   padding-left: 106.5px;
+   padding-bottom: 34px;
+}
 
 .button {
    background-color: #f1c84a;
@@ -215,6 +229,7 @@ header {
    flex-direction: column;
    justify-content: space-around;
    width: 307px;
+   gap: 34px;
 }
 .socialButtons {
    display: flex;
@@ -229,8 +244,6 @@ header {
    height: 24px;
    width: 24px;
 }
-
-
 
 /*Footer*/
 
@@ -260,4 +273,31 @@ footer {
    padding-bottom: 41px;
    margin:0;
 }
+@media only screen and (max-width:600px) {
+   .bg {
+      left: 50%;
+      margin-left: -512px;
+      height: 100%;
+      width: 100%;
+   }
+   header {
+      display: flex;
+      flex-direction: column;
+      margin: 1px;
+      width: 50%;
+      align-items: center;
+      justify-content: space-evenly;
+      font-weight: 600;
+    }
+    .aboutAndPort {
+       display: flex;
+       flex-direction: column;
+    }
+    .aboutDescription {
+      display: flex;
+      display: column;
+      
+    }
+}
+
 
