@@ -344,6 +344,17 @@ footer {
 
 
 @media only screen and (max-width:600px) {
+   body {
+      display: grid;
+      width: 100vw;
+      overflow: hidden;
+   }
+   #background {
+      max-width: 599px;
+   }
+   .navBar {
+      visibility: hidden; 
+   }
    .aboutAndPort {
       display: grid;
       grid-template-columns: 1fr;
