@@ -163,9 +163,9 @@ a:hover {
    font-family: "Khula";
    font-size:48px;
    height: 58px;
-   padding-top: 105px;
+   padding-top: 25px;
    padding-left: 106.5px;
-   padding-bottom: 34px;
+   padding-bottom: 106px;
 }
 .box {
    background-color: #F4E0B8;
@@ -374,6 +374,9 @@ footer {
    }
    .footerConnect {
       opacity: 0;
+   }
+   .footerNav {
+      justify-items: center;
    }
 }
 
