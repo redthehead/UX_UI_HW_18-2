@@ -150,8 +150,8 @@ a:hover {
    font-family: "Khula";
    align-content: center;
    padding: 0 25px 0 128px;
-   /* width: 451px;
-   height: 342px; */
+   /* width: 451px;*/
+   height: 342px; 
    /* margin-left: 128px; */
    /* display: flex;
    justify-content: flex-end; */
@@ -352,9 +352,6 @@ footer {
    }
    #background {
       max-width: 599px;
-   }
-   .navBar {
-      visibility: hidden; 
    }
    .aboutAndPort {
       display: grid;
