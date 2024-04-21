@@ -344,10 +344,11 @@ footer {
 
 
 @media only screen and (max-width:600px) {
-   body {
+   body,
+   html {
       display: grid;
       width: 100vw;
-      overflow: hidden;
+      overflow-x: hidden;
    }
    #background {
       max-width: 599px;
@@ -358,9 +359,6 @@ footer {
    .aboutAndPort {
       display: grid;
       grid-template-columns: 1fr;
-   }
-   #portrait {
-      padding-left: 50px;
    }
    .aboutDescription {
       border-radius: 10px;
